@@ -8,13 +8,13 @@ html, body {
 
 }
 
-h1{
+h1 {
     margin-bottom: 16px;
     margin-top: 16px;
     text-align: center;
 }
 
-div>h1{
+div > h1 {
 
     text-align: right;
 }
@@ -29,7 +29,7 @@ div {
 
 }
 
-p>span{
+p > span {
     text-align: left;
     white-space: nowrap;
     display: block;
@@ -43,10 +43,7 @@ p {
     text-align: center;
 }
 
-p > span > span{
+p > span > span, p > i > b {
     color: red;
 }
 
-p > i > b{
-    color: red;
-}
