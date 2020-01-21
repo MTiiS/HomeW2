@@ -5,19 +5,22 @@ html, body {
     height: 100%;
     font-size: 14px;
     font-family: Arial;
-    text-align: center;
+
 }
 
 h1{
     margin-bottom: 16px;
     margin-top: 16px;
+    text-align: center;
 }
 
-.right-position{
+div>h1{
+
     text-align: right;
 }
 
-div.main-block {
+
+div {
     margin: 0 auto;
     padding: 9px;
     border: 1px solid red;
@@ -26,20 +29,24 @@ div.main-block {
 
 }
 
-.block-span{
+p>span{
     text-align: left;
     white-space: nowrap;
     display: block;
 }
 
-.blue-p{
+p {
 
     border: 1px solid #454545;
     background-color: blue;
     color: white;
-
+    text-align: center;
 }
 
-.red-text{
-   color: red;
+p > span > span{
+    color: red;
+}
+
+p > i > b{
+    color: red;
 }
